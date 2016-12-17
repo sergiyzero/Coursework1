@@ -16,6 +16,7 @@ while ($row = mysqli_fetch_assoc($query))
 
     echo "<br>$row[title]";
     echo "<br>$row[text]";
+    echo "hell";
 }
 
 ?>
